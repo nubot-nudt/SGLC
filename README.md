@@ -1,5 +1,5 @@
 # SGLC
-### Project Page | Video | [Arxiv](https://arxiv.org/abs/2407.08106)
+### [Project Page](https://neng-wang.github.io/SGLC/) | Video | [Arxiv](https://arxiv.org/abs/2407.08106)
 
 This repo contains the implementation of our paper 
 
