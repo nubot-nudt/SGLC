@@ -1,5 +1,5 @@
 # SGLC
-### [Project Page](https://neng-wang.github.io/SGLC/) | Video | [Arxiv](https://arxiv.org/abs/2407.08106)
+### [Project Page](https://neng-wang.github.io/SGLC/) | [Video](https://github.com/nubot-nudt/SGLC/tree/main/video) | [Arxiv](https://arxiv.org/abs/2407.08106)
 
 This repo contains the implementation of our paper 
 
@@ -7,9 +7,13 @@ This repo contains the implementation of our paper
 >
 > [Neng Wang](https://github.com/neng-wang), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli),  [Chenghao Shi](https://github.com/chenghao-shi), Zhiqiang Zheng, Hongshan Yu, Huimin Lu
 
-**SGLC is a semantic graph guided full loop closing framework with robust  loop closure detection and 6-DoF pose estimation.**
+**SGLC is a semantic graph guided full loop closing framework with robust  loop closure detection and 6-DoF poes estimation.**
 
-<video src="./video/SGLC_demo.mp4"></video>
+### A related video
+
+<div align="center">
+    <a href="https://github.com/nubot-nudt/SGLC/tree/main/video" target="_blank"><img src="./pic/video_cover.png" width=100% /></a>
+</div>
 
 ### Abstract
 
