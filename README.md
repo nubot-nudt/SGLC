@@ -9,7 +9,7 @@ This repo contains the implementation of our paper
 
 **SGLC is a semantic graph guided full loop closing framework with robust  loop closure detection and 6-DoF pose estimation.**
 
-<video src="/home/wangneng/Documents/reviews/SGLC.mp4"></video>
+<video src="./video/SGLC_demo.mp4"></video>
 
 ### Abstract
 
