@@ -1,5 +1,5 @@
 # SGLC
-### [Project Page](https://neng-wang.github.io/SGLC/) | [Video](https://github.com/nubot-nudt/SGLC/tree/main/video) | [Arxiv](https://arxiv.org/abs/2407.08106)
+### [Project Page](https://neng-wang.github.io/SGLC/) | [Video](https://1drv.ms/f/c/262fa73419fbaa92/Es1dRoIbvBdMpaR3yKjnVpUB-BMc9TOvGyGpW6Rj0ri3sw?e=ZnAl9F) | [Arxiv](https://arxiv.org/abs/2407.08106)
 
 This repo contains the implementation of our paper 
 
@@ -11,8 +11,10 @@ This repo contains the implementation of our paper
 
 ### A related video
 
+You can check it online on this  [link](https://1drv.ms/f/c/262fa73419fbaa92/Es1dRoIbvBdMpaR3yKjnVpUB-BMc9TOvGyGpW6Rj0ri3sw?e=ZnAl9F).
+
 <div align="center">
-    <a href="https://github.com/nubot-nudt/SGLC/tree/main/video" target="_blank"><img src="./pic/video_cover.png" width=100% /></a>
+    <a href="https://1drv.ms/f/c/262fa73419fbaa92/Es1dRoIbvBdMpaR3yKjnVpUB-BMc9TOvGyGpW6Rj0ri3sw?e=ZnAl9F" target="_blank"><img src="./pic/video_cover.png" width=100% /></a>
 </div>
 
 ### Abstract
