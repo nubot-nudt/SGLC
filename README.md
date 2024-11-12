@@ -1,8 +1,10 @@
+<div align="center">
+
 # SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM
 
 ### [Project Page](https://neng-wang.github.io/SGLC/) | [Video](https://1drv.ms/f/c/262fa73419fbaa92/Es1dRoIbvBdMpaR3yKjnVpUB-BMc9TOvGyGpW6Rj0ri3sw?e=ZnAl9F) | [IEEE](https://ieeexplore.ieee.org/document/10750042) | [Arxiv](https://arxiv.org/abs/2407.08106)
 
-
+</div>
 
 This repo contains the implementation of our paper 
 
@@ -14,9 +16,9 @@ This repo contains the implementation of our paper
 
 ## News:
 
-- [2024-11] We release the implementation code of SGLC, which we hope will be of assistance to your research.:satisfied:
+- [2024-11] We release the implementation code of SGLC, which we hope will be of assistance to your research. :satisfied:
 
-- [2024-10] SGLC is accepted to RAL.:clap:
+- [2024-10] SGLC is accepted to RAL. :clap:
 
 - [2024-07] Paper is available in arXiv website.
 
