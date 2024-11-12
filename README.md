@@ -16,7 +16,7 @@ This repo contains the implementation of our paper
 
 ## News:
 
-- [2024-11] We release the implementation code of SGLC, which we hope will be of assistance to your research. 
+- [2024-11] We release the code of SGLC, which we hope will be of assistance to your research. 
 
 - [2024-10] SGLC is accepted to RAL. :clap:
 
