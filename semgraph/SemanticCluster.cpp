@@ -1,7 +1,4 @@
 
-// This file is covered by the LICENSE file in the root of this project.
-// developed by Neng Wang, <neng.wang@hotmail.com>
-
 #include "SemanticCluster.hpp"
 
 

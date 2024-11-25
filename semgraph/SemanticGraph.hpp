@@ -1,6 +1,6 @@
 // This file is covered by the LICENSE file in the root of this project.
 // developed by Neng Wang, <neng.wang@hotmail.com>
-// reference: CVC_Cluster : https://github.com/wangx1996/Lidar-Segementation
+
 
 #pragma once
 
