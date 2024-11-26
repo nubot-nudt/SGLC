@@ -208,13 +208,15 @@ We would like to express our sincere gratitude for the following open-source wor
 # Citation
 If you find this work useful for your research, please consider citing:
 ```bib
-@article{Wang2024SGLCSG,
-  title={SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM},
-  author={Neng Wang and Xieyuanli Chen and Chenghao Shi and Zhiqiang Zheng and Hongshan Yu and Huimin Lu},
-  journal={IEEE Robotics and Automation Letters},
+@ARTICLE{wang2024ral,
+  author={Wang, Neng and Chen, Xieyuanli and Shi, Chenghao and Zheng, Zhiqiang and Yu, Hongshan and Lu, Huimin},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM}, 
   year={2024},
-  volume={},
-}
+  volume={9},
+  number={12},
+  pages={11545-11552},
+  doi={10.1109/LRA.2024.3495455}}
 ```
 
 # **License**
