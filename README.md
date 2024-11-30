@@ -14,6 +14,19 @@ This repo contains the implementation of our paper
 
 *SGLC is a semantic graph guided full loop closing framework with robust  loop closure detection and 6-DoF poes estimation.*
 
+If you use our work, please cite the paper:
+```bib
+@ARTICLE{wang2024ral,
+  author={Wang, Neng and Chen, Xieyuanli and Shi, Chenghao and Zheng, Zhiqiang and Yu, Hongshan and Lu, Huimin},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM}, 
+  year={2024},
+  volume={9},
+  number={12},
+  pages={11545-11552},
+  doi={10.1109/LRA.2024.3495455}}
+```
+
 ## News:
 
 - [2024-11] We release the code of SGLC, which we hope will be of assistance to your research. 
@@ -216,19 +229,6 @@ We would like to express our sincere gratitude for the following open-source wor
 
 [CVC-Cluster](https://github.com/wangx1996/Lidar-Segementation): Curved-Voxel Clustering for Accurate Segmentation of 3D LiDAR Point Clouds with Real-Time Performance.
 
-# Citation
-If you find this work useful for your research, please consider citing:
-```bib
-@ARTICLE{wang2024ral,
-  author={Wang, Neng and Chen, Xieyuanli and Shi, Chenghao and Zheng, Zhiqiang and Yu, Hongshan and Lu, Huimin},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM}, 
-  year={2024},
-  volume={9},
-  number={12},
-  pages={11545-11552},
-  doi={10.1109/LRA.2024.3495455}}
-```
 
 # **License**
 
