@@ -28,6 +28,9 @@ target_link_libraries(eval_lcd_seq  semgraph )
 add_executable(eval_loop_poses src/eval_loop_poses.cpp)
 target_link_libraries(eval_loop_poses  semgraph )
 
+add_executable(eval_loop_poses_pair src/eval_loop_poses_pair.cpp)
+target_link_libraries(eval_loop_poses_pair  semgraph )
+
 add_executable(eval_overlap src/eval_overlap.cpp)
 target_compile_options(eval_overlap PRIVATE ${OpenMP_CXX_FLAGS})
 target_link_libraries(eval_overlap semgraph  ${OpenMP_CXX_FLAGS})

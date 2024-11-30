@@ -179,7 +179,18 @@ eval_poses:
   out_file: "../out/kitti/loop_distance4_08.txt" # output file
 ```
 
-Then, run the `.bin` file
+Demo
+
+```bash
+cd /SGLC/bin
+./eval_loop_poses_pair
+
+#If you want to check the registration results
+cd scripts/
+python registration_visual.py 
+```
+
+For test kitti, run the `.bin` file
 
 ```
 cd /SGLC/bin
