@@ -107,10 +107,15 @@ namespace SGLC{
             frame_graph.node_centers.emplace_back(cluster_boxes[i].center);
             frame_graph.node_dimensions.emplace_back(cluster_boxes[i].dimension);
             std::vector<std::pair<int,double>> vertex_edges;
+
+            if(cluster_boxes[i].label==1) frame_graph.car_num = frame_graph.car_num+1;
+            else if(cluster_boxes[i].label==2) frame_graph.trunk_num = frame_graph.trunk_num+1;
+            else if(cluster_boxes[i].label==3) frame_graph.pole_like_num = frame_graph.pole_like_num+1;
+            
             for(size_t j = 0; j< N; j++){
                 double edge = (cluster_boxes[i].center - cluster_boxes[j].center).norm();
                 if(edge<edge_dis_th){
-                    vertex_edges.emplace_back(std::make_pair(cluster_boxes[i].label,edge));
+                    vertex_edges.emplace_back(std::make_pair(cluster_boxes[j].label,edge));
                     AdjacencyMatrix(i,j) = 1;
                     EdgeMatrix(i,j) = edge;
                     if(j>=i+1){                                          // only count once
@@ -123,15 +128,12 @@ namespace SGLC{
             // build vertes desc
             for(size_t m=0;m<vertex_edges.size();m++){
                 if(vertex_edges[m].first == 1){ // x - car
-                    frame_graph.car_num = frame_graph.car_num+1;
                     NodeEmbeddings_Local(i,int(vertex_edges[m].second/sub_interval_value))++;
                 }
                 else if(vertex_edges[m].first == 2){ // x - truck
-                    frame_graph.trunk_num = frame_graph.trunk_num+1;
                     NodeEmbeddings_Local(i,subinterval+int(vertex_edges[m].second/sub_interval_value))++;
                 }
                 else if(vertex_edges[m].first == 3){ // x - pole
-                    frame_graph.pole_like_num = frame_graph.pole_like_num+1;
                     NodeEmbeddings_Local(i,subinterval*2+int(vertex_edges[m].second/sub_interval_value))++;
                 }
             }
