@@ -593,7 +593,7 @@ Eigen::Matrix4d SemanticGraph::loop_poses_estimation(std::string cloud_file1, st
                     std::vector<float> sub_triangle(3);
                     sub_triangle[0] = (match_node1.first[i]-graph1.node_centers[indices1[m]]).norm();
                     sub_triangle[1] = (match_node1.first[i]-graph1.node_centers[indices1[n]]).norm();
-                    sub_triangle[1] = (graph1.node_centers[indices1[m]]-graph1.node_centers[indices1[n]]).norm();
+                    sub_triangle[2] = (graph1.node_centers[indices1[m]]-graph1.node_centers[indices1[n]]).norm();
                     std::sort(sub_triangle.begin(), sub_triangle.end()); 
                     nodeSubgraphTriangle1.emplace_back(Eigen::Vector3d(sub_triangle[0],sub_triangle[1],sub_triangle[2]));
                 }
@@ -614,7 +614,7 @@ Eigen::Matrix4d SemanticGraph::loop_poses_estimation(std::string cloud_file1, st
                     std::vector<float> sub_triangle(3);
                     sub_triangle[0] = (match_node2.first[i]-graph2.node_centers[indices2[m]]).norm();
                     sub_triangle[1] = (match_node2.first[i]-graph2.node_centers[indices2[n]]).norm();
-                    sub_triangle[1] = (graph2.node_centers[indices2[m]]-graph2.node_centers[indices2[n]]).norm();
+                    sub_triangle[2] = (graph2.node_centers[indices2[m]]-graph2.node_centers[indices2[n]]).norm();
                     std::sort(sub_triangle.begin(), sub_triangle.end()); 
                     nodeSubgraphTriangle2.emplace_back(Eigen::Vector3d(sub_triangle[0],sub_triangle[1],sub_triangle[2]));
                 }
