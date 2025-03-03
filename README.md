@@ -72,7 +72,7 @@ You need to install these libraries from official guidance.'
 
 You can download the point cloud dataset from the KITTI official [website](https://www.cvlibs.net/datasets/kitti/), as well as the labels from the semanticKITTI [website](http://semantic-kitti.org/). In our experiments, we use the labels from the SegNet4D. For the convenience, you can download from [here](https://1drv.ms/f/c/5f06ab4eccad8a4e/ErYFBreLgOZHqeWc2-WasIAB6sdME03IipgqzkYuRsTDZg?e=sL1yBr).
 
-Loop pairs: we use the distance-based criteria from the [SSC](https://github.com/lilin-hitcrt/SSC) and overlap-based criteria from [OverlapTransformer](https://github-com-s.libyc.nudt.edu.cn/haomo-ai/OverlapTransformer). You also can download from our [link](https://1drv.ms/f/c/5f06ab4eccad8a4e/ErYFBreLgOZHqeWc2-WasIAB6sdME03IipgqzkYuRsTDZg?e=sL1yBr).
+Loop pairs: we use the distance-based criteria from the [SSC](https://github.com/lilin-hitcrt/SSC) and overlap-based criteria from [OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer/). You also can download from our [link](https://1drv.ms/f/c/5f06ab4eccad8a4e/ErYFBreLgOZHqeWc2-WasIAB6sdME03IipgqzkYuRsTDZg?e=sL1yBr).
 
 ### 2. KITTI360
 
@@ -80,7 +80,7 @@ Download the LiDAR scans from the official [website](https://www.cvlibs.net/data
 
 ### 3. Ford campus
 
-You can follow the [OverlapTransformer](https://github-com-s.libyc.nudt.edu.cn/haomo-ai/OverlapTransformer) to download the dataset. We provide the labels on the [link](https://1drv.ms/f/c/5f06ab4eccad8a4e/ErYFBreLgOZHqeWc2-WasIAB6sdME03IipgqzkYuRsTDZg?e=sL1yBr).
+You can download the dataset from the official [website,Dataset1](https://robots.engin.umich.edu/SoftwareData/Ford). We also provide the additional link [dataset](https://drive.google.com/file/d/1h5kK2NGXEpFhHbZHu4DBBW4KVTlOKVml/view?usp=drive_link) and [semantic predictions](https://1drv.ms/f/c/5f06ab4eccad8a4e/ErYFBreLgOZHqeWc2-WasIAB6sdME03IipgqzkYuRsTDZg?e=sL1yBr).
 
 ### 4. Apollo
 
@@ -200,7 +200,7 @@ cd /SGLC/bin
 
 #If you want to check the registration results
 cd scripts/
-python registration_visual.py 
+python registration_visual.py
 ```
 
 For test kitti, run the `.bin` file
